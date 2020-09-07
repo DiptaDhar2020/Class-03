@@ -1,0 +1,168 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*Global CSS Section*/
+body{
+	font-family: 'Playfair Display', serif;
+}
+h1, h2, h3, h4, h5, h6, p, span, input, button{
+	font-family: 'Playfair Display', serif;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+a:hover, a{
+	text-decoration: none;
+}
+/*header section CSS*/
+.header{
+	width: 100%;
+	display: flow-root;
+}
+.main-header{
+	width: 100%;
+	float: left;
+	padding: 30px 0;
+}
+.logo{
+	width: 30%;
+	float: left;
+}
+.menu{
+	width: 70%;
+	float: right;
+	text-align: right;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 70px;
+}
+.menu ul li a{
+	text-transform: uppercase;
+}
+/*banner section CSS*/
+.post{
+	margin-right: 46px;
+}
+.post img{
+	width: 105%;
+}
+.post-details{
+	margin: 80px;
+}
+.post-details span{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+.post-details h1{
+	margin: 18px 0;
+    font-weight: 600;
+}
+.post-details p{
+	margin-bottom: 30px;
+}
+/*blog gallery*/
+.blog-gallery{
+	width: 100%;
+	display: flow-root;
+}
+.gallery{
+	width: 	92%;
+	float: left;
+	margin: 80px;
+}
+.left{
+	width: 47%;
+	float: left;
+}
+.right{
+	width: 47%;
+	float: right;
+}
+.post-body img{
+	margin: 26px 0;
+}
+.post-body h2{
+	margin: 26px 0;
+    font-weight: 200;
+}
+.post-body span{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+/*subcription section css*/
+.subscribe{
+	width: 100%;
+	display: flow-root;
+	background: #f0f0f0;
+	text-align: center;
+}
+.subscribe-body{
+	padding: 50px 0;
+}
+.title h1{
+	font-weight: 400;
+}
+.subscribe-form{
+	margin-top: 50px;
+}
+.subscribe-form input{
+	width: 36%;
+	padding: 20px;
+	border: none;
+	border-bottom: 2px solid black;
+	background: transparent;
+}
+.subscribe-form input:focus{
+	outline: none;
+}
+.subscribe-form i{
+	margin-left: -30px;
+}
+.button{
+	text-align: center;
+	margin-top: 50px;
+	margin: 50px 0;
+}
+.button button{
+	padding: 16px 30px;
+	background: transparent;
+	outline: none;
+	border-radius: 0;
+	font-size: 17px;
+	border: 1px solid black;
+}
+/*footer section CSS*/
+.footer{
+	width: 100%;
+	display: flow-root;
+	background: #f0f0f0;
+}
+.footer-body{
+	width: 100%;
+	float: left;
+	margin: 20px;
+}
+.footer-left{
+	width: 30%;
+	float: left;
+	text-align: left;
+}
+.footer-right{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+}
+.footer-left ul li{
+	margin-right: 20px;
+}
+.footer-right ul li{
+	margin-left: 20px;
+}
